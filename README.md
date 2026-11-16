@@ -1,5 +1,7 @@
 # breach-notes
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/breach-notes)
+
 Structured YAML records of breach reports, advisories, and cyber incidents.
 
 <!-- BEGIN GENERATED -->
