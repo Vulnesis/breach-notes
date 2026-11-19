@@ -18,7 +18,7 @@
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:breach="https://breachnotes.vulnetix.com/xmlns/breach/1.0">
+     xmlns:breach="https://breachnotes.vulnes.is/xmlns/breach/1.0">
   <channel>
     <title>{{ $title | transform.XMLEscape | safeHTML }}</title>
     <link>{{ .Permalink }}</link>

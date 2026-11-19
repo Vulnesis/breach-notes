@@ -134,7 +134,7 @@ main {
     transform: translateY(-9px) rotate(-45deg);
 }
 
-/* Mobile "Powered by Vulnetix" — hidden on desktop */
+/* Mobile "Powered by Vulnesis" — hidden on desktop */
 .vulnetix-mobile-brand {
     display: none;
 }
@@ -712,7 +712,7 @@ main {
 
 /* Responsive */
 @media (max-width: 768px) {
-    /* Show burger, hide desktop Vulnetix logo */
+    /* Show burger, hide desktop Vulnesis logo */
     .burger-btn     { display: flex; }
     .vulnetix-brand { display: none; }
 
@@ -747,7 +747,7 @@ main {
         align-items: flex-start;
     }
 
-    /* "Powered by Vulnetix" footer inside mobile drawer */
+    /* "Powered by Vulnesis" footer inside mobile drawer */
     .vulnetix-mobile-brand {
         display: flex;
         align-items: center;

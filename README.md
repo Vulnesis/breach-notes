@@ -1,6 +1,6 @@
 # breach-notes
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/breach-notes)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnesis/breach-notes)
 
 Structured YAML records of breach reports, advisories, and cyber incidents.
 
@@ -329,7 +329,7 @@ cloud_resource_crit: ""              # CRIT identifier, e.g. "arn:aws:s3:::{buck
 ## RSS Feeds
 
 The site publishes RSS 2.0 feeds with full incident metadata via a custom
-`breach:` XML namespace (`https://breachnotes.vulnetix.com/xmlns/breach/1.0`).
+`breach:` XML namespace (`https://breachnotes.vulnes.is/xmlns/breach/1.0`).
 
 ### Available feeds
 

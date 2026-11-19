@@ -102,7 +102,7 @@ notes: "Additional context"
 #### Cloudflare Configuration (Terraform)
 - **Provider**: Cloudflare
 - **Resources**:
-  - DNS CNAME record: `breachnotes.vulnetix.com` → GitHub Pages domain
+  - DNS CNAME record: `breachnotes.vulnes.is` → GitHub Pages domain
   - Optional: Page rule for www redirect
   - SSL/TLS: Managed by Cloudflare proxy
 - **Files**:
@@ -158,7 +158,7 @@ hugo --minify
    - Generates static HTML pages
    - Deploys to GitHub Pages
 5. **Presentation**: 
-   - Users access site via `breachnotes.vulnetix.com`
+   - Users access site via `breachnotes.vulnes.is`
    - Hacker-themed interface displays breach information
    - Navigation by category, search via browser, detailed views
 

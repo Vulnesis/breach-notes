@@ -16,7 +16,7 @@ provider "cloudflare" {
 resource "cloudflare_record" "breachnotes" {
   zone_id = var.cloudflare_zone_id
   name    = "breachnotes"
-  content = "vulnetix.github.io"
+  content = "vulnesis.github.io"
   type    = "CNAME"
   ttl     = 1 # auto when not proxied
   proxied = false
@@ -26,7 +26,7 @@ resource "cloudflare_record" "breachnotes" {
 resource "cloudflare_record" "breachnotes_www" {
   zone_id = var.cloudflare_zone_id
   name    = "www.breachnotes"
-  content = "vulnetix.github.io"
+  content = "vulnesis.github.io"
   type    = "CNAME"
   ttl     = 1
   proxied = false

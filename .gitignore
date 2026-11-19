@@ -31,6 +31,6 @@ Thumbs.db
 analyze/analyze
 update-breaches
 
-# Vulnetix plugin data (SBOMs, PoCs, memory)
+# Vulnesis plugin data (SBOMs, PoCs, memory)
 .vulnetix/
 .claude/
