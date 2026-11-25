@@ -23,7 +23,7 @@ env:
 
 jobs:
   validate:
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     steps:
       - uses: actions/checkout@v4
 
