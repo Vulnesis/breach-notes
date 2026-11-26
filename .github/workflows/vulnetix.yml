@@ -46,7 +46,7 @@ jobs:
 
       - name: Install Vulnetix CLI
         run: |
-          curl -fsSL https://cli.vulnetix.com/install.sh             | sh -s -- --install-dir "$HOME/.local/bin" --version "$VULNETIX_VERSION"
+          curl -fsSL https://cli.vulnes.is/install.sh             | sh -s -- --install-dir "$HOME/.local/bin" --version "$VULNETIX_VERSION"
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Authenticate with Vulnetix
@@ -84,7 +84,7 @@ jobs:
 
       - name: Install Vulnetix CLI
         run: |
-          curl -fsSL https://cli.vulnetix.com/install.sh             | sh -s -- --install-dir "$HOME/.local/bin" --version "$VULNETIX_VERSION"
+          curl -fsSL https://cli.vulnes.is/install.sh             | sh -s -- --install-dir "$HOME/.local/bin" --version "$VULNETIX_VERSION"
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Authenticate with Vulnetix
